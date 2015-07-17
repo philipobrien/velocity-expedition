@@ -44,6 +44,17 @@ Tests run in isolated context
 [xolvio:cucumber](https://atmospherejs.com/xolvio/cucumber)
 Describe behaviour in plain text and write step definitions. 
 
+```
+tests/
+└── cucumber
+    ├── features
+    │   ├── sample.feature
+    │   └── step_definitions
+    │       └── sample_steps.js
+    ├── fixtures
+    │   └── my_fixture.js
+```
+
 #### Jasmine
 [sanjo:jasmine](https://atmospherejs.com/sanjo/jasmine)
 
